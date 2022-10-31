@@ -1,0 +1,33 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/facu/Escritorio/final'
+g++ -g -c  main.cpp
+g++ -g -c DtInstanciaClase.cpp
+g++ -g -c CInscripcionAAsignaturas.cpp
+g++ -g -c DtAsignatura.cpp
+g++ -g -c DtEstudiante.cpp
+g++ -g -c DtDocente.cpp
+g++ -g -c Asignatura.cpp
+g++ -g -c AsisteEnVivo.cpp
+g++ -g -c Clase.cpp
+g++ -g -c CAsignacionDocente.cpp
+g++ -g -c ControladorAltaAsignatura.cpp
+g++ -g -c ControladorAltaUsuario.cpp
+g++ -g -c Docente.cpp
+g++ -g -c DtFecha.cpp
+g++ -g -c DtLog.cpp
+g++ -g -c DtPerfil.cpp
+g++ -g -c DtTimeStamp.cpp
+g++ -g -c Estudiante.cpp
+g++ -g -c Fabrica.cpp
+g++ -g -c Monitoreo.cpp
+g++ -g -c Participacion.cpp
+g++ -g -c Perfil.cpp
+g++ -g -c Practico.cpp
+g++ -g -c Rol.cpp
+g++ -g -c Teorico.cpp
+g++ -g -c ManejadorAsignatura.cpp
+g++ -g -c ManejadorClase.cpp
+g++ -g -c ManejadorPerfil.cpp
+g++ main.o DtInstanciaClase.o CInscripcionAAsignaturas.o DtAsignatura.o DtEstudiante.o DtDocente.o Asignatura.o AsisteEnVivo.o Clase.o CAsignacionDocente.o ControladorAltaAsignatura.o ControladorAltaUsuario.o Docente.o DtFecha.o DtLog.o DtPerfil.o DtTimeStamp.o Estudiante.o Fabrica.o Monitoreo.o Participacion.o Perfil.o Practico.o Rol.o Teorico.o ManejadorAsignatura.o ManejadorClase.o ManejadorPerfil.o -g -o sistema
+make: Leaving directory '/home/facu/Escritorio/final'
+ 

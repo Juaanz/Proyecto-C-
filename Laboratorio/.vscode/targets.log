@@ -1,0 +1,747 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+make: *** No rule to make target 'all'.  Stop.
+ 
+# GNU Make 4.2.1
+ 
+# Built for x86_64-pc-linux-gnu
+ 
+# Copyright (C) 1988-2016 Free Software Foundation, Inc.
+ 
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+ 
+# This is free software: you are free to change and redistribute it.
+ 
+# There is NO WARRANTY, to the extent permitted by law.
+ 
+
+ 
+# Make data base, printed on Tue Jun 15 20:50:32 2021
+ 
+
+# Variables
+ 
+
+ 
+# 'override' directive
+ 
+GNUMAKEFLAGS := 
+ 
+# automatic
+ 
+<D = $(patsubst %/,%,$(dir $<))
+ 
+# automatic
+ 
+?F = $(notdir $?)
+ 
+# environment
+ 
+DESKTOP_SESSION = ubuntu
+ 
+# default
+ 
+.SHELLFLAGS := -c
+ 
+# environment
+ 
+XDG_SESSION_CLASS = user
+ 
+# environment
+ 
+SNAP_COMMON = /var/snap/code/common
+ 
+# environment
+ 
+XDG_SESSION_TYPE = x11
+ 
+# environment
+ 
+VSCODE_LOG_NATIVE = false
+ 
+# automatic
+ 
+?D = $(patsubst %/,%,$(dir $?))
+ 
+# environment
+ 
+IM_CONFIG_PHASE = 1
+ 
+# automatic
+ 
+@D = $(patsubst %/,%,$(dir $@))
+ 
+# environment
+ 
+XAUTHORITY = /run/user/1000/gdm/Xauthority
+ 
+# environment
+ 
+GDMSESSION = ubuntu
+ 
+# environment
+ 
+XMODIFIERS = @im=ibus
+ 
+# makefile
+ 
+CURDIR := /home/facu/Escritorio/final
+ 
+# makefile
+ 
+SHELL = /bin/sh
+ 
+# environment
+ 
+SNAP_DATA = /var/snap/code/66
+ 
+# environment
+ 
+VSCODE_NLS_CONFIG = {"locale":"es","availableLanguages":{"*":"es"},"_languagePackId":"130dc6ef72128c9c713454958c6cf897.es","_translationsConfigFile":"/home/facu/.config/Code/clp/130dc6ef72128c9c713454958c6cf897.es/tcf.json","_cacheRoot":"/home/facu/.config/Code/clp/130dc6ef72128c9c713454958c6cf897.es","_resolvedLanguagePackCoreLocation":"/home/facu/.config/Code/clp/130dc6ef72128c9c713454958c6cf897.es/b4c1bd0a9b03c749ea011b06c6d2676c8091a70c","_corruptedFile":"/home/facu/.config/Code/clp/130dc6ef72128c9c713454958c6cf897.es/corrupted.info","_languagePackSupport":true}
+ 
+# environment
+JOURNAL_STREAM = 8:28018
+# environment
+XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
+# environment
+SNAP_INSTANCE_NAME = code
+# environment
+SNAP_ARCH = amd64
+# makefile (from 'makefile', line 1)
+MAKEFILE_LIST :=  makefile
+# automatic
+@F = $(notdir $@)
+# environment
+GIO_LAUNCHED_DESKTOP_FILE = /var/lib/snapd/desktop/applications/code_code.desktop
+# environment
+USERNAME = facu
+# environment
+XDG_DATA_DIRS = /usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+_ = /snap/code/66/usr/share/code/code
+# environment
+MANAGERPID = 743
+# environment
+LESSOPEN = | /usr/bin/lesspipe %s
+# environment
+VSCODE_CWD = /home/facu
+# environment
+GSETTINGS_SCHEMA_DIR = /snap/code/66/usr/share/glib-2.0/schemas
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+PATH = /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+# environment
+GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
+# environment
+SESSION_MANAGER = local/facu-VirtualBox:@/tmp/.ICE-unix/1006,unix/facu-VirtualBox:/tmp/.ICE-unix/1006
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# environment
+GDK_PIXBUF_MODULE_FILE = /home/facu/snap/code/common/.cache/gdk-pixbuf-loaders.cache
+# environment
+SNAP = /snap/code/66
+# environment
+SNAP_VERSION = b4c1bd0a
+# environment
+XDG_MENU_PREFIX = gnome-
+# environment
+VSCODE_LOG_STACK = false
+# environment
+DISABLE_WAYLAND = 1
+# environment
+VSCODE_CRASH_REPORTER_START_OPTIONS = {"companyName":"Microsoft","productName":"VSCode","submitURL":"appcenter://code?aid=fba07a4d-84bd-4fc8-a125-9640fc8ce171&uid=560a0ead-bad5-411b-a3e6-9fa1f95c176b&iid=560a0ead-bad5-411b-a3e6-9fa1f95c176b&sid=560a0ead-bad5-411b-a3e6-9fa1f95c176b","uploadToServer":true}
+# environment
+INVOCATION_ID = c66aa2492cce486f9e386c3c4137ad88
+# environment
+GDK_PIXBUF_MODULEDIR = /snap/code/66/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
+# environment
+LS_COLORS = 
+# environment
+XDG_SESSION_DESKTOP = ubuntu
+# environment
+SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
+# environment
+GIO_LAUNCHED_DESKTOP_FILE_PID = 7666
+# automatic
+%F = $(notdir $%)
+# environment
+DISPLAY = :0
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+SNAP_INSTANCE_KEY = 
+# environment
+PWD = /home/facu/Escritorio/final
+# default
+.LOADED := 
+# environment
+SSH_AGENT_PID = 942
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
+# environment
+GTK_MODULES = gail:atk-bridge
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/services/extensions/node/extensionHostProcess
+# environment
+HOME = /home/facu
+# environment
+LESSCLOSE = /usr/bin/lesspipe %s %s
+# environment
+VSCODE_CLI = 1
+# environment
+LOGNAME = facu
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# environment
+SNAP_LIBRARY_PATH = /var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void
+# environment
+SNAP_CONTEXT = Ws9OsdOB2XHAJ0__G6DAIYAEdGa5gM7a0LwkHW9tQgjYEMitAZTE
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# environment
+SNAP_USER_COMMON = /home/facu/snap/code/common
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+GNOME_DESKTOP_SESSION_ID = this-is-deprecated
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+MAKELEVEL := 0
+# environment
+SNAP_REAL_HOME = /home/facu
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+QT_IM_MODULE = ibus
+# environment
+SNAP_USER_DATA = /home/facu/snap/code/66
+# environment
+SHLVL = 0
+# environment
+GNOME_SHELL_SESSION_MODE = ubuntu
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-4b10c4bf-1a87-4a29-8a11-c385f881a81f.sock
+# default
+MAKE_VERSION := 4.2.1
+# environment
+USER = facu
+# environment
+SNAP_REVISION = 66
+# makefile
+.DEFAULT_GOAL := main
+# environment
+XDG_CURRENT_DESKTOP = Unity
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# default
+MAKE_COMMAND := make
+# environment
+VSCODE_NODE_CACHED_DATA_DIR = /home/facu/.config/Code/CachedData/b4c1bd0a9b03c749ea011b06c6d2676c8091a70c
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+LANGUAGE = es_UY:es
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-c840f68e-1.57.0-main.sock
+# environment
+BAMF_DESKTOP_FILE_HINT = /var/lib/snapd/desktop/applications/code_code.desktop
+# makefile
+MAKEFLAGS = pqrR
+# environment
+MFLAGS = -pqrR
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+BREAKPAD_DUMP_LOCATION = /home/facu/.config/Code/exthost Crash Reports
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+GDK_BACKEND = x11
+# automatic
++F = $(notdir $+)
+# environment
+QT_ACCESSIBILITY = 1
+# default
+MAKEFILES := 
+# environment
+SNAP_COOKIE = Ws9OsdOB2XHAJ0__G6DAIYAEdGa5gM7a0LwkHW9tQgjYEMitAZTE
+# automatic
+<F = $(notdir $<)
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+SNAP_NAME = code
+# environment
+LC_ALL = C
+# environment
+GJS_DEBUG_TOPICS = JS ERROR;JS LOG
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# environment
+SNAP_REEXEC = 
+# environment
+CHROME_DESKTOP = code-url-handler.desktop
+# environment
+WINDOWPATH = 2
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# environment
+GJS_DEBUG_OUTPUT = stderr
+# default
+.RECIPEPREFIX := 
+# environment
+LANG = C
+# environment
+VSCODE_PID = 7707
+# variable set hash-table stats:
+# Load=123/1024=12%, Rehash=0, Collisions=20/148=14%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 2053, inode 434772): 94 files, no impossibilities.
+
+# 94 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+Estudiante.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+Fabrica.o: Fabrica.cpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 53):
+	g++ -g -c Fabrica.cpp
+
+# Not a target:
+ControladorAltaUsuario.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+DtLog.o: DtLog.cpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 41):
+	g++ -g -c DtLog.cpp
+
+# Not a target:
+CInscripcionAAsignaturas.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+all:
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+
+Rol.o: Rol.cpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 68):
+	g++ -g -c Rol.cpp
+
+Perfil.o: Perfil.cpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 62):
+ 
+	g++ -g -c Perfil.cpp
+
+# Not a target:
+DtAsignatura.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+DtEstudiante.o: DtEstudiante.cpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 86):
+	g++ -g -c DtEstudiante.cpp
+
+# Not a target:
+Clase.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+ManejadorAsignatura.o: ManejadorAsignatura.cpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 74):
+	g++ -g -c ManejadorAsignatura.cpp
+
+Asignatura.o: Asignatura.cpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 23):
+	g++ -g -c Asignatura.cpp
+
+DtDocente.o: DtDocente.cpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 83):
+	g++ -g -c DtDocente.cpp
+
+DtPerfil.o: DtPerfil.cpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 44):
+	g++ -g -c DtPerfil.cpp
+
+ManejadorClase.o: ManejadorClase.cpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 77):
+	g++ -g -c ManejadorClase.cpp
+
+# Not a target:
+Monitoreo.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+Participacion.o: Participacion.cpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 59):
+	g++ -g -c Participacion.cpp
+
+# Not a target:
+Practico.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+makefile:
+#  Implicit rule search has been done.
+#  Last modified 2021-06-15 19:26:32.57230741
+#  File has been updated.
+#  Successfully updated.
+
+DtFecha.o: DtFecha.cpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 38):
+	g++ -g -c DtFecha.cpp
+
+# Not a target:
+DtTimeStamp.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+main.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+Docente.o: Docente.cpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 35):
+	g++ -g -c Docente.cpp
+
+# Not a target:
+CAsignacionDocente.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+Estudiante.o: Estudiante.cpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 50):
+	g++ -g -c Estudiante.cpp
+
+ControladorAltaUsuario.o: ControladorAltaUsuario.cpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 32):
+	g++ -g -c ControladorAltaUsuario.cpp
+
+CInscripcionAAsignaturas.o: CInscripcionAAsignaturas.cpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 5):
+	g++ -g -c CInscripcionAAsignaturas.cpp
+
+# Not a target:
+ControladorAltaAsignatura.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+DtInstanciaClase.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+AsisteEnVivo.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+ManejadorPerfil.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Teorico.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+DtAsignatura.o: DtAsignatura.cpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 20):
+	g++ -g -c DtAsignatura.cpp
+
+# Not a target:
+Fabrica.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+DtLog.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+Clase.o: Clase.cpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 29):
+	g++ -g -c Clase.cpp
+
+# Not a target:
+Rol.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clean:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 89):
+	rm -rf *.o sistema
+	clear
+
+# Not a target:
+Perfil.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+DtEstudiante.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+Monitoreo.o: Monitoreo.cpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 56):
+	g++ -g -c Monitoreo.cpp
+
+Practico.o: Practico.cpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 65):
+	g++ -g -c Practico.cpp
+
+DtTimeStamp.o: DtTimeStamp.cpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 47):
+	g++ -g -c DtTimeStamp.cpp
+
+# Not a target:
+ManejadorAsignatura.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+main: main.o DtInstanciaClase.o CInscripcionAAsignaturas.o DtAsignatura.o DtEstudiante.o DtDocente.o Asignatura.o AsisteEnVivo.o Clase.o CAsignacionDocente.o ControladorAltaAsignatura.o ControladorAltaUsuario.o Docente.o DtFecha.o DtLog.o DtPerfil.o DtTimeStamp.o Estudiante.o Fabrica.o Monitoreo.o Participacion.o Perfil.o Practico.o Rol.o Teorico.o ManejadorAsignatura.o ManejadorClase.o ManejadorPerfil.o
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 2):
+	g++ main.o DtInstanciaClase.o CInscripcionAAsignaturas.o DtAsignatura.o DtEstudiante.o DtDocente.o Asignatura.o AsisteEnVivo.o Clase.o CAsignacionDocente.o ControladorAltaAsignatura.o ControladorAltaUsuario.o Docente.o DtFecha.o DtLog.o DtPerfil.o DtTimeStamp.o Estudiante.o Fabrica.o Monitoreo.o Participacion.o Perfil.o Practico.o Rol.o Teorico.o ManejadorAsignatura.o ManejadorClase.o ManejadorPerfil.o -g -o sistema
+
+main.o: main.cpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 8):
+	g++ -g -c  main.cpp
+
+# Not a target:
+Asignatura.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+DtDocente.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+ 
+CAsignacionDocente.o: CAsignacionDocente.cpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 11):
+	g++ -g -c CAsignacionDocente.cpp
+	
+
+# Not a target:
+DtPerfil.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+ManejadorClase.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Participacion.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+DtFecha.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+ControladorAltaAsignatura.o: ControladorAltaAsignatura.cpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 14):
+	g++ -g -c ControladorAltaAsignatura.cpp
+	
+
+DtInstanciaClase.o: DtInstanciaClase.cpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 17):
+	g++ -g -c DtInstanciaClase.cpp
+
+AsisteEnVivo.o: AsisteEnVivo.cpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 26):
+	g++ -g -c AsisteEnVivo.cpp
+
+# Not a target:
+Docente.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+ManejadorPerfil.o: ManejadorPerfil.cpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 80):
+	g++ -g -c ManejadorPerfil.cpp
+
+Teorico.o: Teorico.cpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 71):
+	g++ -g -c Teorico.cpp
+
+# files hash-table stats:
+# Load=62/1024=6%, Rehash=0, Collisions=1/156=1%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 101 / storage = 1480 B / avg = 14 B
+# current buf: size = 8162 B / used = 1480 B / count = 101 / avg = 14 B
+
+# strcache performance: lookups = 219 / hit rate = 53%
+# hash-table stats:
+# Load=101/8192=1%, Rehash=0, Collisions=1/219=0%
+# Finished Make data base on Tue Jun 15 20:50:32 2021
+
+ 
